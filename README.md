@@ -1,7 +1,6 @@
 # LunarSearch: High-Performance SIMD String Scanning
 
 [![C++20](https://img.shields.io/badge/C%2B%2B-20-blue.svg)](https://isocpp.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **LunarSearch** is a specialized string-searching utility designed to push the boundaries of the **Intel Lunar Lake** architecture. By utilizing hand-tuned AVX2 intrinsics and OpenMP parallelism, this project achieves near-theoretical peak memory bandwidth, successfully hitting the "Memory Wall" of modern mobile silicon.
 
@@ -29,7 +28,7 @@ Performance in systems programming is a science, not a feeling. This repository 
 1.  Performs **100-sample runs** for every implementation.
 2.  Calculates **Mean** and **Standard Deviation** to filter out OS jitter.
 3.  Applies a **2-Sigma Significance Test** to ensure that "Wins" are architecturally real and not just statistical noise.
-![Performance Ranking](img/Screenshot_20260421_011415.png)
+![Performance Ranking](Screenshot_20260421_011415.png)
 
 ## 📦 Building & Running
 This project is optimized for the **Intel oneAPI DPC++/C++ Compiler (icpx)**.
